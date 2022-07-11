@@ -1,4 +1,4 @@
-# Case Técnico Banco Paraná
+# Case Técnico Paraná Banco
  
 # Acesso a API via Azure
 https://case-pbtech.azurewebsites.net/swagger/index.html
