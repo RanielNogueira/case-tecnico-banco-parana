@@ -28,7 +28,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "API Case Técnico Banco Paraná",
+        Title = "API Case Técnico Paraná Banco",
         Description = "Integração com recursos da API do Case",
         Contact = new OpenApiContact
         {
