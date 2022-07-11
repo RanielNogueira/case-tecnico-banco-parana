@@ -1,0 +1,15 @@
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\bin\Release\net6.0\PBTech.Service.deps.json
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\bin\Release\net6.0\PBTech.Service.dll
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\bin\Release\net6.0\PBTech.Service.pdb
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\bin\Release\net6.0\PBTech.Domain.dll
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\bin\Release\net6.0\PBTech.Domain.pdb
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.csproj.AssemblyReference.cache
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.AssemblyInfoInputs.cache
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.AssemblyInfo.cs
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.csproj.CoreCompileInputs.cache
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.csproj.CopyComplete
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.dll
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\refint\PBTech.Service.dll
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\PBTech.Service.pdb
+C:\Users\ranie\source\repos\PBTech\PBTech.Service\obj\Release\net6.0\ref\PBTech.Service.dll

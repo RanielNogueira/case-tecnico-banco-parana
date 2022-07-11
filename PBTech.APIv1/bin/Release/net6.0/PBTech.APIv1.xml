@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PBTech.APIv1</name>
+    </assembly>
+    <members>
+        <member name="M:PBTech.APIv1.Controllers.NewsLetterController.Get">
+            <summary>
+            Lista todos os usuários cadastrados
+            </summary>
+            <returns>Retorna um array do tipo ReceiveNews[] </returns>
+            <response code="200">Retorna o novo item criado</response>
+            <response code="500">Caso aconteça alguma falha interna</response> 
+        </member>
+        <member name="M:PBTech.APIv1.Controllers.NewsLetterController.GetByEmail(System.String)">
+            <summary>
+            Lista todos os usuários cadastrados
+            </summary>
+            <returns>Retorna um objeto do tipo ReceiveNews</returns>
+            <response code="200">Retorna um objeto ReceiveNews a partir do e-mail cadastrado</response>
+            <response code="404">Caso não encontre nenhum resultado</response> 
+            <response code="500">Caso aconteça alguma falha interna</response> 
+        </member>
+        <member name="M:PBTech.APIv1.Controllers.NewsLetterController.Post(PBTech.Domain.Models.ReceiveNews)">
+            <summary>
+            Inserir um novo registro ReceiveNews
+            </summary>
+            <returns>Cadastra um novo ReceiveNews</returns>
+            <remarks>
+            Sample request:
+            
+                POST api/newsletter
+                {        
+                  "fullName": "My Name",
+                  "email": "my@email.com.br"     
+                }
+            </remarks>
+            <response code="201">Retorna o novo ReceiveNews criado</response>
+            <response code="400">Caso o body não esteja com informações insuficientes</response>
+            <response code="500">Caso aconteça alguma falha interna</response> 
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PBTech.APIv1.Controllers.NewsLetterController.Put(System.Int32,PBTech.Domain.Models.ReceiveNews)" -->
+        <member name="M:PBTech.APIv1.Controllers.NewsLetterController.Delete(System.String)">
+            <summary>
+            Adiciona um novo registro para receber novidades
+            </summary>
+            <returns>Retorna uma lista de codigos de demissões cadastrados</returns>
+            <response code="200">Registro deletado com sucesso</response>
+            <response code="404">Caso o registro não tenha sido encontrado</response> 
+            <response code="500">Caso aconteça alguma falha interna</response> 
+        </member>
+    </members>
+</doc>

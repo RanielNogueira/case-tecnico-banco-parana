@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>$(NoWarn);1591</NoWarn>
+	  <DocumentationFile>C:\Users\ranie\source\repos\PBTech\PBTech.APIv1\bin\Debug\net6.0\PBTech.APIv1.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PBTech.Domain\PBTech.Domain.csproj" />
+    <ProjectReference Include="..\PBTech.Service\PBTech.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataDirectory\" />
+  </ItemGroup>
+
+</Project>
